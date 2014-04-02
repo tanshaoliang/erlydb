@@ -1,0 +1,12 @@
+{application, erlydb,
+ [
+  {description, "Mysql driver"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlydb_app, []}},
+  {env, []}
+ ]}.
